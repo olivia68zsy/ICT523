@@ -1,0 +1,74 @@
+<!-- 
+Name：bppws
+Author：kaygb
+Version：20200708
+-->
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivia | ICT523 | Index </title>
+    <meta name="keywords" content="Anders ICT523">
+    <meta name="theme-color" content="#000">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kaygb/Apage@master/pws20200708/style.css">
+    <style>
+            h1::before{
+                content: 'Personal introduction';
+                position: absolute;
+                color: #b2bec348;
+                z-index: -1;
+                left: 10px;
+                top: 10px;
+            }
+    </style>
+</head>
+<body>
+    <div class="zz">
+        <img class="lazy-img" data-original="https://i.loli.net/2020/09/14/v4Si8BIupOVcwm6.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" alt="" srcset="">
+    </div>
+
+    <div class="main">
+        
+        <div class="title">
+            <h1>Self-introduction</h1>
+        </div>
+        <div class="content">
+            <h1>Hey guys！</h1>
+            <h1> I'm Olivia from IT2.</h1>
+            <img border="0" src="我22.jpg" alt="Pulpit rock" width="418" height="300">
+            <h1>I'm from Ningbo, Zhejiang Province, China.</h1>
+            <p>I am a Gemini who likes philosophy, psychology and astrophysics.</h4>
+ <p>I am very sensitive to numbers and have always been very interested in data collection. At the same time, I also love demand analysis and have my own unique views on finding new things and summarizing conclusions. So I love the course of data collection and demand analysis. I will take this course seriously and study hard.</p>
+    <img border="0" src="我33.jpg" alt="Pulpit rock" width="300" height="388">
+    <p>I hope that under the guidance of my teacher and in my love, I can shine and heat, constantly absorb new knowledge, make progress and become better and better.</p>
+    <h1>Have a nice day！</h1>
+</div>
+    </div>
+
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
+    <script>
+        // lazyload
+    window.onload = function() {
+        $('.zz img').addClass('lazyload');
+        $(function() {
+            $("img.lazyload").lazyload({
+                effect: 'fadeIn',
+                // inverval: 3000
+                effectspeed: 1000
+            });
+        });
+
+        $(".zz img").lazyload({
+            effect: 'fadeIn',
+            // inverval: 3000
+            effectspeed: 1000 
+        });
+    }
+    console.log(" %c bppws %c https://github.com/kaygb/Apage/ ", "color: #000; background: pink; padding:5px;", "background: #fff; padding:5px;");
+//初始化
+    </script>
+</body>
+</html>
