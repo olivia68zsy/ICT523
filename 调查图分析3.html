@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivia | ICT523 | SURVEY RESULTS </title>
+    <meta name="keywords" content="Olivia ICT523">
+    <meta name="theme-color" content="#000">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kaygb/Apage@master/pws20200708/style.css">
+    <style>
+            h1::before{
+                content: 'survery results';
+                position: absolute;
+                color: #b2bec348;
+                z-index: -1;
+                left: 10px;
+                top: 10px;
+            }
+    </style>
+</head>
+<body>
+    <div class="zz">
+        <img class="lazy-img" data-original="https://i.loli.net/2020/09/14/v4Si8BIupOVcwm6.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" alt="" srcset="">
+    </div>
+
+    <div class="main">
+        
+        <div class="title">
+            <h1>Survery Results</h1>
+        </div>
+        <div class="content">
+            <h2 style="font-family: 等线; font-size: xx-large;color: aliceblue;">
+                The following are the results of our survey of customers' relevant business needs.
+            </h2>
+
+            <img border="0" src="555.png" alt="pie1" >
+            <p> According to the survey question "Which operating system are you used to using", we conclude that  
+                Windows system is the most popular system, followed by DOS and Linux.</p>
+            <img border="0" src="666.png" alt="pie2" >
+            <p>According to the survey question "Which system do you want to use", we conclude that the most popular ones are ERP and CRM, the same number of people like them, followed by DSS.</p>
+            <img border="0" src="777.png" alt="pie3" >
+            <p> According to the survey question"What kind of investigation do you like", we conclude that people prefer online survey, while a samll number prefer email,paper or in-person survey.</p>
+            <p><a href="diagram.html" target="_blank">Click here - diagram</a>&nbsp; Or  <a href="surveyResults.html" target="_blank">Click here - Survey results</a>.</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
+    <script>
+        // lazyload
+    window.onload = function() {
+        $('.zz img').addClass('lazyload');
+        $(function() {
+            $("img.lazyload").lazyload({
+                effect: 'fadeIn',
+                // inverval: 3000
+                effectspeed: 1000
+            });
+        });
+
+        $(".zz img").lazyload({
+            effect: 'fadeIn',
+            // inverval: 3000
+            effectspeed: 1000 
+        });
+    }
+//初始化
+    </script>
+</body>
+</html>
